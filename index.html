@@ -3,31 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
 <body>
     <div class="container">
-        <h3>Login</h3>
-        <form id="loginPage">
-            <label>
-                Username: <input type="text" id="userName" required>
-            </label>
-            
-            <label>
-                Password: <input type="text" id="password" required>
-            </label>
-            <label>
-                NGO: <input type="checkbox" id="ngo" required>
-            </label>
-            
-            <label>
-                Volunteer: <input type="checkbox" id="volunteer" required>
-            </label>
-
+        <h2>Login</h2>
+        <form>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <select title="select role" required>
+                <option value="">Select Role</option>
+                <option value="ngo">NGO</option>
+                <option value="volunteer">Volunteer</option>
+            </select>
             <button type="submit">Submit</button>
         </form>
+        <div class="signup-buttons">
+            <button>Sign Up as NGO</button>
+            <button>Sign Up as Volunteer</button>
+        </div>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
