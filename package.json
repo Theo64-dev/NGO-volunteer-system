@@ -1,0 +1,19 @@
+{
+  "name": "ngo-volunteer-system",
+  "version": "1.0.0",
+  "description": "The NGO Volunteer Engagement Platform is designed to connect volunteers with NGOs based on their interests, skills, and past activities.\r Using a content-based recommendation system, the platform suggests relevant NGO opportunities to volunteers, enhancing engagement and impact.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
