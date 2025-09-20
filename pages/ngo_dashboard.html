@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO Dashboard</title>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Dashboard</h2>
+        <ol>
+            <li>Home</li>
+            <li>Profile</li>
+            <li>Messages</li>
+            <li>Applicants</li>
+            <li>Settings</li>
+        </ol>
+    </div>
+    <div class="content">
+        <div class="header">
+            <h1>NGO Name</h1>
+        </div>
+        <div class="card">
+            <h2>Applicants</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>aaa</td>
+                    <td>aaa@gmail.com</td>
+                    <td>9876543210</td>
+                    <td>Pending</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            display: flex;
+            color: #333;
+        }
+        .sidebar {
+            width: 250px;
+            background: #1d3e5a;
+            color: white;
+            padding: 20px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .sidebar h2 {
+            text-align: center;
+        }
+        .sidebar ol {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+        .sidebar ol li {
+            padding: 15px;
+            margin: 10px 0;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .sidebar ol li:hover {
+            background: #0D47A1;
+        }
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background: #1E88E5;
+            color: white;
+        }
+    </style>
+</body>
+</html>
